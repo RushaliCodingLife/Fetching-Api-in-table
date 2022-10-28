@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="json.css">
+
+</head>
+
+
+<body style="background-image: url('image/2.jpeg');">
+
+  <!-- navbar -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+</ul>
+      </div>
+    </div>
+
+
+        </ul>
+        <form class="d-flex">
+          <!-- 
+          <button class="btn btn-outline-success me-2 ms-2" type="submit"for="btn-check-2"  onclick="show()">Show data</button> 
+          <button class="btn btn-outline-danger  " type="submit"for="btn-check-2"onclick="hide()">Hide data</button> -->
+
+          <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off">
+          <label class="btn btn-outline-primary me-2" for="btn-check-outlined" onclick="show()">Show</label>
+          <br>
+
+          <input type="checkbox" class="btn-check " id="btn-check-outlined " autocomplete="off">
+          <label class="btn btn-outline-primary" for="btn-check-outlined" onclick="hide()">Hide</label>
+
+
+        </form>
+
+  </nav>
+
+
+
+  <!-- heading -->
+
+  <div class="container">
+    <h2 class="heading-container  text-center mt-5" class="head">Fetching through form.json API (Manual)</h2>
+  </div>
+
+
+  <!-- table -->
+
+  <table class="table table-bordered table-hover table-success table-striped text-center table-xl table-lg mt-5"
+    id="Registrationtable">
+
+    <tbody>
+
+    </tbody>
+  </table>
+
+
+
+  <!-- heading2 -->
+
+  <div class="container1">
+    <h2 class="heading-container text-center mt-5" class="head1">Fetching through json placeholder</h2>
+  </div>
+
+
+  <!-- table2 -->
+
+  <table
+    class="table table-bordered table-hover table-secondary table-striped text-center table-xl table-lg mt-5 text-dark"
+    id="jsp">
+
+    <tbody>
+
+    </tbody>
+  </table>
+
+
+
+
+  <script src="image/form.js"></script>
+
+
+</body>
+
+</html>

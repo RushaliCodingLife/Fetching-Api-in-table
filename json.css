@@ -1,0 +1,31 @@
+.container {
+    color: white;
+    text-decoration: underline;
+    font-weight: revert;
+    font-family: initial;
+}
+
+
+.container1 {
+    color: rgb(255, 255, 0);
+    text-decoration-line: underline;
+    font-weight: revert;
+    font-family: initial;
+}
+
+.form {
+    color: black;
+}
+
+
+body {
+    font-family: "Trirong", sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+
+}
